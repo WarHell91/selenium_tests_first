@@ -11,14 +11,14 @@ driver.get("https://yandex.ru")
 
 time.sleep(10)
 
-driver.back()
+driver.back() # Кнопка назад в браузере
 
 time.sleep(3)
 
-driver.forward()
+driver.forward() # Кнопка вперед в браузере
 
 time.sleep(3)
 
-driver.refresh()
+driver.refresh() # Кнопка обновить в браузере
 
 time.sleep(3)
